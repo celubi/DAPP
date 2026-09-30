@@ -42,7 +42,7 @@ RF = 100.0        # formation circle radius (at scale s=1)
 HEIGHT_MAP_PATH      = str(_ROOT / "random_maps" / "random_map_4_height.png")
 L_POLE               = 200.0
 L_ROPE               = 180.0
-CABLE_SAMPLE_STEP_PX = 5
+CABLE_SAMPLE_STEP_PX = 20
 HEIGHT_MAX           = 100
 
 # ─── State discretisation ───────────────────────────────────

@@ -115,7 +115,7 @@ OBSTACLE_TRAVEL_AFTER  = 0.0
 # When None the obstacle cluster aims at the *centre* of the
 # formation at each intercept step.  When set to an integer k in
 # [0, n_robots) the cluster aims at the position of robot k.
-TARGET_ROBOT = 4
+TARGET_ROBOT = 0
 
 # ─── Extra obstacle cluster ─────────────────────────────────
 N_EXTRA_OBSTACLES          = 3

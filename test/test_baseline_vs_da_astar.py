@@ -60,8 +60,8 @@ HEIGHT_MAP_PATH = str(_ROOT / "random_maps" / "random_map_4_height.png")
 # (cfg.C_DEFORM is derived from cfg's values, so it can't be reused).
 C_DEFORM = (cfg.RF * S_MAX) + cfg.RB + XY_STEP
 
-GOAL = (200 // XY_STEP, 3800 // XY_STEP, 0, 5, 0)
-START  = (3800 // XY_STEP, 3800 // XY_STEP, 0, 5, 0)
+START = (200 // XY_STEP, 3800 // XY_STEP, 0, 5, 0)
+GOAL  = (3800 // XY_STEP, 3800 // XY_STEP, 0, 5, 0)
 
 # Final figure: the three paths overlaid on the map, written to the
 # shared test_output/ folder.  Set to None to pop up an interactive
